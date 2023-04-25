@@ -26,15 +26,20 @@ int main(int argc, char* argv[]) {
   FLAGS_log_dir = "./log/";            // 设置日志存放路径
   FLAGS_alsologtostderr = true;
   FLAGS_minloglevel = google::INFO;
-  //    int* ptr = nullptr;
-  //    CHECK(ptr != nullptr) << "Access a nullptr";
-  //    *ptr = 31;
-
+  //  int* ptr = nullptr;
+  //  CHECK(ptr != nullptr) << "Access a nullptr";
+  //  *ptr = 31;
+  //  LOG(INFO) << "info";
+  //  LOG(WARNING) << "warning";
+  //  LOG(ERROR) << "error";
+  //  LOG(FATAL) << "";
+  LOG(INFO) << "程序开始了";
   Matrix* matrix = new Matrix(2, 2);
   //  matrix->at(5, 5);
-  Matrix* matrix_null = nullptr;
-  DoSomeFunctionMatrix(matrix);
-  //  DoSomeFunctionMatrix(matrix_null);
+//  Matrix* matrix_null = nullptr;
+  //  DoSomeFunctionMatrix(matrix);
+//  DoSomeFunctionMatrix(matrix_null);
+  LOG(INFO) << "程序结束了";
 
   delete matrix;
   return 0;

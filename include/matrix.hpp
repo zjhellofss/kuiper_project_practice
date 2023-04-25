@@ -25,7 +25,7 @@ class Matrix {
 
   float& at(uint32_t row, uint32_t col) {
     CHECK(values_ != nullptr);
-    CHECK(row < rows_ && col < cols_);
+    CHECK(row < rows_ && col < cols_) << "访问到了错误的位置";
     return values_[row * cols_ + col];
   }
 
