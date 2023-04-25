@@ -1,0 +1,8 @@
+/home/fss/code/cpp_learn_project/cmake-build-debug/CMakeFiles/cpp_learn_project.dir
+/home/fss/code/cpp_learn_project/cmake-build-debug/CMakeFiles/test.dir
+/home/fss/code/cpp_learn_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fss/code/cpp_learn_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fss/code/cpp_learn_project/cmake-build-debug/test/CMakeFiles/test_matrix.dir
+/home/fss/code/cpp_learn_project/cmake-build-debug/test/CMakeFiles/test.dir
+/home/fss/code/cpp_learn_project/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/home/fss/code/cpp_learn_project/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir

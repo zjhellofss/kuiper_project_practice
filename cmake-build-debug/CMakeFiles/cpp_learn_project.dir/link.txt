@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/cpp_learn_project.dir/glog_learn.cpp.o -o cpp_learn_project  -Wl,-rpath,/usr/local/lib /usr/local/lib/libglog.so.0.7.0 /usr/local/lib/libgflags.so.2.2.2 
